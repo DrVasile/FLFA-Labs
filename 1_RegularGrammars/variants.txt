@@ -1,0 +1,425 @@
+Variant 1:
+VN={S, P, Q}, 
+VT={a, b, c, d, e, f},
+P={ 
+    S → aP
+    S → bQ
+    P → bP
+    P → cP
+    P → dQ
+    P → e
+    Q → eQ
+    Q → fQ
+    Q → a
+}
+
+Variant 2:
+VN={S, R, L}, 
+VT={a, b, c, d, e, f},
+P={ 
+    S → aS
+    S → bS
+    S → cR
+    S → dL
+    R → dL
+    R → e
+    L → fL
+    L → eL
+    L → d
+}
+
+Variant 3:
+VN={S, D, R}, 
+VT={a, b, c, d, f},
+P={ 
+    S → aS
+    S → bD
+    S → fR
+    D → cD
+    D → dR
+    R → bR
+    R → f
+    D → d
+}
+
+Variant 4:
+VN={S, L, D}, 
+VT={a, b, c, d, e, f, j},
+P={ 
+    S → aS
+    S → bS
+    S → cD
+    S → dL
+    S → e
+    L → eL
+    L → fL
+    L → jD
+    L → e
+    D → eD
+    D → d
+}
+
+Variant 5:
+VN={S, F, L}, 
+VT={a, b, c, d},
+P={ 
+    S → bS
+    S → aF
+    S → d
+    F → cF
+    F → dF
+    F → aL
+    L → aL
+    L → c
+    F → b
+}
+
+Variant 6:
+VN={S, I, J, K}, 
+VT={a, b, c, e, n, f, m}, 
+P={ 
+    S → cI
+    I → bJ
+    I → fI
+    J → nJ
+    J → cS
+    I → eK
+    K → nK
+    I → e
+    K → m
+}
+
+Variant 7:
+VN={S, D, E, F, L}, 
+VT={a, b, c, d}, 
+P={ 
+    S → aD
+    D → bE
+    E → cF
+    F → dD
+    E → dL
+    L → aL
+    L → bL
+    L → c
+}
+
+Variant 8:
+VN={S, D, E, J}, 
+VT={a, b, c, d, e},
+P={ 
+    S → aD
+    D → dE
+    D → bJ
+    J → cS
+    E → e
+    E → aE
+    D → aE
+}
+
+Variant 9:
+VN={S, B, D, Q}, 
+VT={a, b, c, d},
+P={ 
+    S → aB
+    S → bB
+    B → cD
+    D → dQ
+    Q → bB
+    D → a
+    Q → dQ
+}
+
+Variant 10:
+VN={S, B, L}, 
+VT={a, b, c}, 
+P={ 
+    S → aB
+    B → bB
+    B → cL
+    L → cL
+    L → aS
+    L → b
+}
+
+Variant 11:
+VN={S, B, D}, 
+VT={a, b, c}, 
+P={ 
+    S → aB
+    S → bB
+    B → bD
+    D → b
+    D → aD
+    B → cB
+    B → aS
+}
+
+Variant 12:
+VN={S, F, D}, 
+VT={a, b, c}, 
+P={ 
+    S → aF
+    F → bF
+    F → cD
+    S → bS
+    D → cS
+    D → a
+    F → a
+}
+
+Variant 13:
+VN={S, B, D}, 
+VT={a, b, c}, 
+P={ 
+    S → aB
+    B → aD
+    B → bB
+    D → aD
+    D → bS
+    B → cS
+    D → c
+}
+
+Variant 14:
+VN={S, B, D}, 
+VT={a, b, c, d}, 
+P={ 
+    S → aS
+    S → bB
+    B → cB
+    B → d
+    B → aD
+    D → aB
+    D → b
+}
+
+Variant 15:
+VN={S, A, B},
+VT={a, b, c}, 
+P={ 
+    S → aS  
+    S → bS  
+    S → cA  
+    A → aB 
+    B → aB   
+    B → bB  
+    B → c
+}
+
+Variant 16:
+VN={S, A, B},
+VT={a, b, c, d}, 
+P={ 
+    S → bS     
+    S → dA    
+    A → aA   
+    A → dB    
+    B → cB  
+    A → b   
+    B → a
+}
+
+Variant 17:
+VN={S, A, B, C},
+VT={a, b, c, d}, 
+P={ 
+    S → dA     
+    A → aB    
+    B → bC   
+    C → cB
+    A → bA
+    B → aB    
+    B → d
+}
+
+Variant 18:
+VN={S, A, B, C}, 
+VT={a, b}, 
+P={ 
+    S → aA     
+    A → bS    
+    S → aB   
+    B → aC    
+    C → a  
+    C → bS
+}
+
+Variant 19:
+VN={S, A, B, C},
+VT={a, b}, 
+P={ 
+    S → aA    
+    A → bS    
+    A → aB   
+    B → bC    
+    C → aA  
+    C → b
+}
+
+Variant 20:
+VN={S, A, B, C},
+VT={a, b, c, d}, 
+P={ 
+    S → dA     
+    A → d    
+    A → aB   
+    B → bC    
+    C → cA
+    C → aS
+}
+
+Variant 21:
+VN={S, B, C, D},
+VT={a, b, c}, 
+P={ 
+    S → aB     
+    B → bS    
+    B → aC   
+    B → b    
+    C → bD   
+    D → a    
+    D → bC
+    D → cS
+}
+
+Variant 22:
+VN={S, D, F},
+VT={a, b, c, d}, 
+P={ 
+    S → aS     
+    S → bS    
+    S → cD   
+    D → dD    
+    D → bF  
+    D → a
+    F → bS
+    F → a
+}
+
+Variant 23:
+VN={S, B, C},
+VT={a, b, c}, 
+P={ 
+    S → aB     
+    B → aC    
+    C → bB   
+    C → c 
+    C → aS
+    B → bB
+}
+
+Variant 24:
+VN={S, A, C, D},
+VT={a, b}, 
+P={ 
+    S → aA     
+    A → bS    
+    A → dD   
+    D → bC    
+    C → a   
+    C → bA   
+    D → aD
+}
+
+Variant 25:
+VN={S, A, B},
+VT={a, b, c, d}, 
+P={ 
+    S → bS     
+    S → dA    
+    A → aA   
+    A → dB    
+    B → cB   
+    A → b   
+    B → a
+}
+
+Variant 26:
+VN={S, A, B, C},
+VT={a, b, c, d}, 
+P={ 
+    S → dA     
+    A → aB    
+    B → bC   
+    C → cB    
+    B → d
+    C → aA
+    A → b
+}
+
+Variant 27:
+VN={S, A, B},
+VT={a, b, c}, 
+P={ 
+    S → aA     
+    A → bS    
+    S → bB   
+    A → cA    
+    A → aB  
+    B → aB   
+    B → b
+}
+
+Variant 28:
+VN={S, A, B, C},
+VT={a, b}, 
+P={ 
+    S → aA     
+    A → bS    
+    A → aB   
+    B → bC    
+    C → aA   
+    B → aB     
+    C → b
+}
+
+Variant 29:
+VN={S, A, B, C},
+VT={a, b}, 
+P={ 
+    S → bA     
+    A → b    
+    A → aB   
+    B → bC    
+    C → cA
+    A → bA
+    B → aB
+}
+
+Variant 30:
+VN={S, B, C, D},
+VT={a, b, c}, 
+P={
+    S → aB     
+    B → bS    
+    B → aC   
+    B → c    
+    C → bD   
+    D → c    
+    D → aC
+}
+
+Variant 31:
+VN={S, D, R},
+VT={a, b, c},
+P={
+    S → aS     
+    S → bS    
+    S → cD   
+    D → bD    
+    D → cR  
+    D → a
+    R → b
+}
+
+Variant 32:
+VN={S, D, R},
+VT={a, b, c},
+P={ 
+    S → aS     
+    S → cD   
+    D → bR    
+    R → aR  
+    R → b
+    R → cS
+}
