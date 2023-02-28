@@ -29,7 +29,11 @@
 
     c. Implement some functionality that would convert an NDFA to a DFA.
     
-    d. Represent the finite automaton graphically (Optional, and can be considered as a __*bonus point*__).
+    d. Represent the finite automaton graphically (Optional, and can be considered as a __*bonus point*__):
+        
+        I. You can use external libraries, tools or APIs to generate the figures/diagrams.
+        
+        II. Your program needs to gather and send the data about the automaton and the lib/tool/API return the visual representation.
 
 
 ## Implementation tips:
