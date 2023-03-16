@@ -29,7 +29,11 @@
 
     c. Implement some functionality that would convert an NDFA to a DFA.
     
-    d. Represent the finite automaton graphically (Optional, and can be considered as a __*bonus point*__).
+    d. Represent the finite automaton graphically (Optional, and can be considered as a __*bonus point*__):
+      
+    - You can use external libraries, tools or APIs to generate the figures/diagrams.
+        
+    - Your program needs to gather and send the data about the automaton and the lib/tool/API return the visual representation.
 
 
 ## Implementation tips:
@@ -53,6 +57,6 @@
 
 5. If the work doesn't correspond to the requirements I'll revert the submission and leave some comments. If needed you can reach out and ask questions. 
 
-7. The deadline for this assignment is __05/03/2022::23:59:59:99__.
+7. The deadline for this assignment is __07/03/2022::23:59:59:99__.
 
 8. After the deadline, the students will have to present the laboratory works, and for each week, the max grade would be decreased by 1.
