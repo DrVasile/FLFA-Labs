@@ -24,8 +24,7 @@
 1. The project should be located in a __*public*__ repository on a git hosting service (e.g. Github, Gitlab, BitBucket etc.):
 
   * You only need to have one repository.
-  * For now there is no need to use libs/frameworks so please don't use libs that have this kind of stuff already implemented.
-
+  * You can use the lexer implemented for the PBL project, if you have one. It needs to be integrated in this project and docummented well.
 2. It should contain an explanation in the form of a Markdown with the standard structure from the ../REPORT_TEMPLATE.md file.
 
 3. In order to make the evaluation as optimal as possible you should obey the indications and document the project accordingly so that I could evaluate them by myself. The works can be presented by you as well if you want either at the lectures or online.
